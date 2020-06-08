@@ -11,10 +11,12 @@
 <body>
 <header>
 <nav id="nav-bar">
-    <img id="header-img" class="nav-link" href="#" src="https://svgsilh.com/svg_v2/787587.svg">
-    <h1 id="name" class="nav-link" href="#">MailPage</h1>
-    <a href="#" class="button3 nav-link">Sign In</a>
-    <a href="#" class="button4 nav-link">About Us</a>
+    <a href='/index.html' style="text-decoration: none; color: black;">
+    <img id="header-img" class="nav-link" src="https://svgsilh.com/svg_v2/787587.svg">
+    <h1 id="nameTop" class="nav-link">MailPage</h1>
+    </a>
+    <a href="/signin.html" class="button3 nav-link">Sign In</a>
+    <a href="#aboutus" class="button4 nav-link">About Us</a>
 </nav>
 </header>
 <div class="main">
@@ -22,8 +24,9 @@
     <div class="front">
         <div class="fronttext">
             <h1 class="coverSlogan">Simple and easy to use E-mail client that makes it simple for teams.</h1>
-            <a href="#" class="button1">Features & Pricing</a>
-            <a href="#" class="button2">Sign Up</a>
+            <a href="#pricingview" class="button1">Features & Pricing</a>
+            <a href="/signup.html" class="button2">Sign Up</a>
+            <div id="pricingview"></div>
         </div>
     </div>
     <div class="clickdown" href="index.html/#video">
@@ -33,7 +36,7 @@
 <div class="videoEmb">
     <video src="/img/vid.mp4" autoplay muted loop id="video"></video>
 </div>
-<div class="pricing">
+<div id="pricing">
     <div id="freeplan">
         <p>Free Plan</p>
         <ul>
@@ -41,6 +44,12 @@
             <li>Unlimited e-mail accounts</li>
             <li>Group chat</li>
         </ul>
+    <div class="equipPlan">
+        <hr>
+        <a href="/signup.html">
+        <button class="a" id="buttonTrns">Sign Up</button>
+        </a>
+    </div>
     </div>
     <div id="paidplan">
         <p>Paid Plan</p>
@@ -52,10 +61,27 @@
             <li>Video/Audio calls</li>
             <li>24/7 Support</li>
         </ul>
+        <div class="equipPlan">
+            <hr>
+            <a href="/signup.html" id="buttonTrns">
+            <button class="b" id="buttonTrns">Sign Up</button>
+            </a>
+        </div>
     </div>
 </div>
+<div class="main" id="aboutus">
+    <br><h1>About Us</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus augue odio, id condimentum mi interdum nec. Ut ut dolor non eros consequat luctus. Morbi nec dignissim ex, nec tincidunt turpis. Sed eget dignissim nisl. Donec eget nunc quis est consequat suscipit. Fusce luctus sapien tincidunt turpis hendrerit, quis varius felis cursus. Maecenas tristique eu nisi a euismod. Sed sit amet augue id diam vulputate faucibus. Phasellus bibendum, dui ut vulputate venenatis, ipsum sapien tempor ipsum, gravida dapibus sem tortor ut erat. Nunc dolor quam, auctor id faucibus vulputate, scelerisque sed mauris. </p><br>
+    <p>Mauris a placerat massa, in vehicula diam. Maecenas non nibh sit amet enim eleifend sagittis. Vivamus vitae pulvinar metus, quis posuere urna. Mauris a mauris et justo dignissim mattis at vitae est. Praesent cursus nibh at elit accumsan, quis sollicitudin metus vestibulum. Suspendisse posuere molestie dui, eu blandit metus varius non. In condimentum quis nunc nec porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam pulvinar hendrerit libero nec blandit. Nam eget nulla et dui fermentum pharetra vel quis sapien. Duis sit amet orci lectus. Vivamus pellentesque fermentum tellus a hendrerit. Mauris a vehicula nibh. Donec fringilla neque elementum vehicula ullamcorper. In bibendum ligula sodales metus suscipit vulputate. Vivamus libero turpis, iaculis mattis vehicula at, suscipit a tortor. </p>
+    <p> Sed iaculis, libero placerat convallis fermentum, sem nunc bibendum quam, in rutrum leo lectus quis mi. Duis eget ullamcorper arcu, eu vulputate felis. Duis semper porttitor nisi, sit amet pretium libero vehicula nec. Maecenas et massa accumsan erat condimentum placerat nec sed velit. Fusce in tempor purus, et convallis leo. Sed malesuada semper ligula, ac fringilla mauris hendrerit eget. Suspendisse ornare, tellus vel vehicula placerat, velit velit ultrices quam, vitae tempor nibh nisl placerat massa. Quisque non lorem sodales, placerat libero et, mattis neque. Nullam leo lorem, aliquet in gravida sed, imperdiet quis nibh. Nunc non eleifend ipsum, et commodo purus. Nam leo nunc, sodales in turpis ac, efficitur varius turpis. Nulla facilisi. Integer vel nunc vulputate, vehicula elit nec, sodales velit. Praesent condimentum fringilla placerat. Praesent malesuada ultrices mi, sit amet laoreet turpis tincidunt nec. </p>
+<br><br>
+</div>
 <footer>
-
+<p id="madeby">Made by Timotej Ferenc 2020 (Hover for CC)</p>
+<div class="cr">
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Uvedenie Autora-Nekomerčné Použitie-Žiadne Odvodené Diela 4.0 International License</a>.
+</div>
 </footer>
 </body>
 </html>
